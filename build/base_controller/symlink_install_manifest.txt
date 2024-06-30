@@ -1,0 +1,15 @@
+/home/sithija/spectrobot_ws/install/base_controller/share/ament_index/resource_index/package_run_dependencies/base_controller
+/home/sithija/spectrobot_ws/install/base_controller/share/ament_index/resource_index/parent_prefix_path/base_controller
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/environment/ament_prefix_path.sh
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/environment/ament_prefix_path.dsv
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/environment/path.sh
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/environment/path.dsv
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/local_setup.bash
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/local_setup.sh
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/local_setup.zsh
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/local_setup.dsv
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/package.dsv
+/home/sithija/spectrobot_ws/install/base_controller/share/ament_index/resource_index/packages/base_controller
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/cmake/base_controllerConfig.cmake
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/cmake/base_controllerConfig-version.cmake
+/home/sithija/spectrobot_ws/install/base_controller/share/base_controller/package.xml

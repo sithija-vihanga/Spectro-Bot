@@ -1,0 +1,17 @@
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/config/spectrobot_controllers.yaml
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/launch/controller.launch.py
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/ament_index/resource_index/package_run_dependencies/spectrobot_controller
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/ament_index/resource_index/parent_prefix_path/spectrobot_controller
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/environment/ament_prefix_path.sh
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/environment/ament_prefix_path.dsv
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/environment/path.sh
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/environment/path.dsv
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/local_setup.bash
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/local_setup.sh
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/local_setup.zsh
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/local_setup.dsv
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/package.dsv
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/ament_index/resource_index/packages/spectrobot_controller
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/cmake/spectrobot_controllerConfig.cmake
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/cmake/spectrobot_controllerConfig-version.cmake
+/home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/package.xml

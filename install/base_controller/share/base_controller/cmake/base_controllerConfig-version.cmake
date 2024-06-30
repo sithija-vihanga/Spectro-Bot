@@ -1,0 +1,1 @@
+/home/sithija/spectrobot_ws/build/base_controller/ament_cmake_core/base_controllerConfig-version.cmake

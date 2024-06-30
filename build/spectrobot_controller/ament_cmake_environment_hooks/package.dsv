@@ -1,0 +1,4 @@
+source;share/spectrobot_controller/local_setup.bash
+source;share/spectrobot_controller/local_setup.dsv
+source;share/spectrobot_controller/local_setup.sh
+source;share/spectrobot_controller/local_setup.zsh
