@@ -6,7 +6,7 @@ SimpleController::SimpleController(const std::string &name):Node(name)
     declare_parameter("wheel_seperation", 0.17);
 
     wheel_radius_ = get_parameter("wheel_radius").as_double();
-    
+    wheel_seperation = get_parameter("wheel_seperation").as_double();
 
 }
 
