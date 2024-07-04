@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ does not name a type
+    6 | [01;31m[KSimpleController[m[K::SimpleController(const std::string &name):Node(name)
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:6:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ has not been declared
+   27 | void [01;31m[KSimpleController[m[K::velCallback(const geometric_msgs::msg::TwistStamped &msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_msgs[m[K’ does not name a type
+   27 | void SimpleController::velCallback(const [01;31m[Kgeometric_msgs[m[K::msg::TwistStamped &msg)
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   27 | void SimpleController::velCallback(const geometric_msgs::msg[01;31m[K::[m[KTwistStamped &msg)
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   27 | void SimpleController::velCallback[34m[K([m[Kconst geometric_msgs::msg[01;31m[K:[m[K[32m[K:[m[KTwistStamped &msg)
+      |                                   [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~[m[K
+      |                                                             [32m[K)[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   27 | void SimpleController::velCallback(const geometric_msgs::msg[01;31m[K::[m[KTwistStamped &msg)
+      |                                                             [01;31m[K^~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   44 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:45:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   45 |     auto node = std::[01;31m[Kmake_shared[m[K<SimpleController>("simple_controller");
+      |                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+    2 | #include <Eigen/Geometry>
+  +++ |+[32m[K#include <memory>[m[K
+    3 | 
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:45:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ was not declared in this scope
+   45 |     auto node = std::make_shared<[01;31m[KSimpleController[m[K>("simple_controller");
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   46 |     [01;31m[Krclcpp[m[K::spin(node);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   47 |     [01;31m[Krclcpp[m[K::shutdown();
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::velCallback(const TwistStamped&)[m[K’:
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:33:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+   33 |     wheel_speed_msg.data.push_back(wheel_speed.coeff(1))[01;31m[K:[m[K
+      |                                                         [01;31m[K^[m[K
+      |                                                         [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

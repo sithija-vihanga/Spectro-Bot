@@ -1,0 +1,37 @@
+[0.134s] Invoking command in '/home/sithija/spectrobot_ws/build/spectrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sithija/ros2_ws/install/my_robot_controller:/home/sithija/ros2_ws/install/fleet_subscriber:/home/sithija/ros2_ws/install/fleet_base:/home/sithija/ros2_ws/install/recovery_pulse_test:/home/sithija/ros2_ws/install/recovery_pathfinder:/home/sithija/ros2_ws/install/recoveryPathFinder:/home/sithija/ros2_ws/install/py_pubsub:/home/sithija/ros2_ws/install/obstacle_detector:/home/sithija/ros2_ws/install/first_bot:/home/sithija/ros2_ws/install/explore:/home/sithija/custombot_ws/install/robot_model_pkg:/home/sithija/custombot_ws/install/explore:/home/sithija/cambot_ws/install/navcontrol:/home/sithija/simulation_ws/install/us_handler:/home/sithija/simulation_ws/install/recovery_pulse_test:/home/sithija/simulation_ws/install/recovery_pathfinder:/home/sithija/simulation_ws/install/rate_converter:/home/sithija/simulation_ws/install/obstacle_detector:/opt/ros/humble /usr/bin/cmake --build /home/sithija/spectrobot_ws/build/spectrobot_controller -- -j16 -l16
+[0.232s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[2.454s] In file included from [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:1[m[K:
+[2.454s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+[2.454s]    18 |         rclcpp::Subscription<[01;31m[Kgeometric_msgs[m[K::msg::TwistStamped>::SharedPtr vel_sub_;
+[2.454s]       |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.454s]       |                              [32m[Kgeometry_msgs[m[K
+[2.454s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.455s]    18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped[01;31m[K>[m[K::SharedPtr vel_sub_;
+[2.455s]       |                                                               [01;31m[K^[m[K
+[2.455s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.455s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.455s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.456s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.456s]    18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped>::[01;31m[KSharedPtr[m[K vel_sub_;
+[2.456s]       |                                                                  [01;31m[K^~~~~~~~~[m[K
+[2.456s]       |                                                                           [32m[K;[m[K
+[2.456s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ does not name a type
+[2.456s]    18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped>::SharedPtr [01;31m[Kvel_sub_[m[K;
+[2.457s]       |                                                                            [01;31m[K^~~~~~~~[m[K
+[2.567s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[2.567s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_seperation[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_seperation_[m[K’?
+[2.567s]    12 |     [01;31m[Kwheel_seperation[m[K    = get_parameter("wheel_seperation").as_double();
+[2.567s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.567s]       |     [32m[Kwheel_seperation_[m[K
+[2.575s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ was not declared in this scope
+[2.575s]    18 |     [01;31m[Kvel_sub_[m[K         = create_subscription<geometry_msgs::msg::TwistStamped>("/spectrobot_controller/cmd_vel", 10,
+[2.576s]       |     [01;31m[K^~~~~~~~[m[K
+[2.640s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::velCallback(const TwistStamped&)[m[K’:
+[2.640s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:33:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+[2.640s]    33 |     wheel_speed_msg.data.push_back(wheel_speed.coeff(1))[01;31m[K:[m[K
+[2.641s]       |                                                         [01;31m[K^[m[K
+[2.641s]       |                                                         [32m[K;[m[K
+[4.502s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[4.502s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+[4.503s] gmake: *** [Makefile:146: all] Error 2
+[4.507s] Invoked command in '/home/sithija/spectrobot_ws/build/spectrobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sithija/ros2_ws/install/my_robot_controller:/home/sithija/ros2_ws/install/fleet_subscriber:/home/sithija/ros2_ws/install/fleet_base:/home/sithija/ros2_ws/install/recovery_pulse_test:/home/sithija/ros2_ws/install/recovery_pathfinder:/home/sithija/ros2_ws/install/recoveryPathFinder:/home/sithija/ros2_ws/install/py_pubsub:/home/sithija/ros2_ws/install/obstacle_detector:/home/sithija/ros2_ws/install/first_bot:/home/sithija/ros2_ws/install/explore:/home/sithija/custombot_ws/install/robot_model_pkg:/home/sithija/custombot_ws/install/explore:/home/sithija/cambot_ws/install/navcontrol:/home/sithija/simulation_ws/install/us_handler:/home/sithija/simulation_ws/install/recovery_pulse_test:/home/sithija/simulation_ws/install/recovery_pathfinder:/home/sithija/simulation_ws/install/rate_converter:/home/sithija/simulation_ws/install/obstacle_detector:/opt/ros/humble /usr/bin/cmake --build /home/sithija/spectrobot_ws/build/spectrobot_controller -- -j16 -l16

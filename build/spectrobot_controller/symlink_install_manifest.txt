@@ -1,3 +1,5 @@
+/home/sithija/spectrobot_ws/install/spectrobot_controller/include/include/spectrobot_controller/simple_controller.hpp
+/home/sithija/spectrobot_ws/install/spectrobot_controller/lib/spectrobot_controller/simple_controller
 /home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/config/spectrobot_controllers.yaml
 /home/sithija/spectrobot_ws/install/spectrobot_controller/share/spectrobot_controller/launch/controller.launch.py
 /home/sithija/spectrobot_ws/install/spectrobot_controller/share/ament_index/resource_index/package_run_dependencies/spectrobot_controller

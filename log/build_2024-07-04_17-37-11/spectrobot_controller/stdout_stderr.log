@@ -1,0 +1,35 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+In file included from [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_msgs[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs[m[K’?
+   18 |         rclcpp::Subscription<[01;31m[Kgeometric_msgs[m[K::msg::TwistStamped>::SharedPtr vel_sub_;
+      |                              [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                              [32m[Kgeometry_msgs[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped[01;31m[K>[m[K::SharedPtr vel_sub_;
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped>::[01;31m[KSharedPtr[m[K vel_sub_;
+      |                                                                  [01;31m[K^~~~~~~~~[m[K
+      |                                                                           [32m[K;[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/include/spectrobot_controller/simple_controller.hpp:18:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ does not name a type
+   18 |         rclcpp::Subscription<geometric_msgs::msg::TwistStamped>::SharedPtr [01;31m[Kvel_sub_[m[K;
+      |                                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_seperation[m[K’ was not declared in this scope; did you mean ‘[01m[Kwheel_seperation_[m[K’?
+   12 |     [01;31m[Kwheel_seperation[m[K    = get_parameter("wheel_seperation").as_double();
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kwheel_seperation_[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_sub_[m[K’ was not declared in this scope
+   18 |     [01;31m[Kvel_sub_[m[K         = create_subscription<geometry_msgs::msg::TwistStamped>("/spectrobot_controller/cmd_vel", 10,
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::velCallback(const TwistStamped&)[m[K’:
+[01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:33:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K:[m[K’ token
+   33 |     wheel_speed_msg.data.push_back(wheel_speed.coeff(1))[01;31m[K:[m[K
+      |                                                         [01;31m[K^[m[K
+      |                                                         [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

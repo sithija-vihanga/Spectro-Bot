@@ -1,0 +1,46 @@
+[0.130s] Invoking command in '/home/sithija/spectrobot_ws/build/spectrobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sithija/ros2_ws/install/my_robot_controller:/home/sithija/ros2_ws/install/fleet_subscriber:/home/sithija/ros2_ws/install/fleet_base:/home/sithija/ros2_ws/install/recovery_pulse_test:/home/sithija/ros2_ws/install/recovery_pathfinder:/home/sithija/ros2_ws/install/recoveryPathFinder:/home/sithija/ros2_ws/install/py_pubsub:/home/sithija/ros2_ws/install/obstacle_detector:/home/sithija/ros2_ws/install/first_bot:/home/sithija/ros2_ws/install/explore:/home/sithija/custombot_ws/install/robot_model_pkg:/home/sithija/custombot_ws/install/explore:/home/sithija/cambot_ws/install/navcontrol:/home/sithija/simulation_ws/install/us_handler:/home/sithija/simulation_ws/install/recovery_pulse_test:/home/sithija/simulation_ws/install/recovery_pathfinder:/home/sithija/simulation_ws/install/rate_converter:/home/sithija/simulation_ws/install/obstacle_detector:/opt/ros/humble /usr/bin/cmake --build /home/sithija/spectrobot_ws/build/spectrobot_controller -- -j16 -l16
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.225s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.961s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:6:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ does not name a type
+[0.961s]     6 | [01;31m[KSimpleController[m[K::SimpleController(const std::string &name):Node(name)
+[0.961s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.961s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:6:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ has not been declared
+[0.961s]    27 | void [01;31m[KSimpleController[m[K::velCallback(const geometric_msgs::msg::TwistStamped &msg)
+[0.962s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.962s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometric_msgs[m[K’ does not name a type
+[0.962s]    27 | void SimpleController::velCallback(const [01;31m[Kgeometric_msgs[m[K::msg::TwistStamped &msg)
+[0.962s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.962s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[0.962s]    27 | void SimpleController::velCallback(const geometric_msgs::msg[01;31m[K::[m[KTwistStamped &msg)
+[0.963s]       |                                                             [01;31m[K^~[m[K
+[0.963s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[0.963s]    27 | void SimpleController::velCallback[34m[K([m[Kconst geometric_msgs::msg[01;31m[K:[m[K[32m[K:[m[KTwistStamped &msg)
+[0.963s]       |                                   [34m[K~[m[K                         [01;31m[K^[m[K[32m[K~[m[K
+[0.963s]       |                                                             [32m[K)[m[K
+[0.963s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:27:61:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[0.963s]    27 | void SimpleController::velCallback(const geometric_msgs::msg[01;31m[K::[m[KTwistStamped &msg)
+[0.963s]       |                                                             [01;31m[K^~[m[K
+[0.963s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.964s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.964s]    44 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.964s]       |     [01;31m[K^~~~~~[m[K
+[0.964s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:45:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.964s]    45 |     auto node = std::[01;31m[Kmake_shared[m[K<SimpleController>("simple_controller");
+[0.964s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[0.964s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.964s]     2 | #include <Eigen/Geometry>
+[0.964s]   +++ |+[32m[K#include <memory>[m[K
+[0.965s]     3 | 
+[0.965s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:45:34:[m[K [01;31m[Kerror: [m[K‘[01m[KSimpleController[m[K’ was not declared in this scope
+[0.965s]    45 |     auto node = std::make_shared<[01;31m[KSimpleController[m[K>("simple_controller");
+[0.965s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.965s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.965s]    46 |     [01;31m[Krclcpp[m[K::spin(node);
+[0.965s]       |     [01;31m[K^~~~~~[m[K
+[0.966s] [01m[K/home/sithija/spectrobot_ws/src/spectrobot_controller/src/simple_controller.cpp:47:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.966s]    47 |     [01;31m[Krclcpp[m[K::shutdown();
+[0.966s]       |     [01;31m[K^~~~~~[m[K
+[1.035s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[1.036s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_controller.dir/all] Error 2
+[1.036s] gmake: *** [Makefile:146: all] Error 2
+[1.041s] Invoked command in '/home/sithija/spectrobot_ws/build/spectrobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sithija/ros2_ws/install/my_robot_controller:/home/sithija/ros2_ws/install/fleet_subscriber:/home/sithija/ros2_ws/install/fleet_base:/home/sithija/ros2_ws/install/recovery_pulse_test:/home/sithija/ros2_ws/install/recovery_pathfinder:/home/sithija/ros2_ws/install/recoveryPathFinder:/home/sithija/ros2_ws/install/py_pubsub:/home/sithija/ros2_ws/install/obstacle_detector:/home/sithija/ros2_ws/install/first_bot:/home/sithija/ros2_ws/install/explore:/home/sithija/custombot_ws/install/robot_model_pkg:/home/sithija/custombot_ws/install/explore:/home/sithija/cambot_ws/install/navcontrol:/home/sithija/simulation_ws/install/us_handler:/home/sithija/simulation_ws/install/recovery_pulse_test:/home/sithija/simulation_ws/install/recovery_pathfinder:/home/sithija/simulation_ws/install/rate_converter:/home/sithija/simulation_ws/install/obstacle_detector:/opt/ros/humble /usr/bin/cmake --build /home/sithija/spectrobot_ws/build/spectrobot_controller -- -j16 -l16

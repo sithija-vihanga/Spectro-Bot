@@ -1,5 +1,6 @@
 /home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/uninstall.dir
 /home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/spectrobot_controller_uninstall.dir
+/home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/simple_controller.dir
 /home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/test.dir
 /home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/edit_cache.dir
 /home/sithija/spectrobot_ws/build/spectrobot_controller/CMakeFiles/rebuild_cache.dir
